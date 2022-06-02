@@ -1,6 +1,4 @@
-CREATE TABLE test
-    (
-        id integer NOT Null,
-        firstName varchar(255) NOT null,
-        primary key(id)
-);
+INSERT INTO MEMBERS (first_name, last_name, email) VALUES
+  ('Lokesh', 'Gupta', 'abc@gmail.com'),
+  ('Deja', 'Vu', 'xyz@email.com'),
+  ('Caption', 'America', 'cap@marvel.com');
